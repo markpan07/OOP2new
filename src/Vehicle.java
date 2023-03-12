@@ -18,4 +18,6 @@ public abstract class Vehicle {
     public void setModelName(String modelName) {
         this.modelName = modelName;
     }
+
+    public abstract void check();
 }
